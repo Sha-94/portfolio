@@ -18,6 +18,10 @@ text-align: left;
 text-align: right;
 }
 
+.project-border {
+  border: 5px solid  var(--tertiary-color);
+}
+
 .flex-row{
 display: flex;
 }
@@ -147,32 +151,15 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 5px;
+  grid-gap: 10px;
 }
 
 
 .project-1{
-  border: 3px solid var(--tertiary-color);
+  border: 5px solid var(--tertiary-color);
   grid-row: 1/span 2;
   grid-column: 1/span 2;
 
-
-}
-.project-2{
-  border: 3px solid  var(--tertiary-color);
-
-}
-
-.project-3{
-  border: 3px solid  var(--tertiary-color);
-
-}
-.project-4{
-  border: 3px solid  var(--tertiary-color);
-
-}
-.project-5{
-  border: 3px solid  var(--tertiary-color);
 
 }
 
