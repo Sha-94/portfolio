@@ -24,6 +24,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 p {
   line-break: normal;
   line-height: 2.5ex;
@@ -182,6 +187,12 @@ img {
   border-bottom: 3px solid var(--secondary-color);
   padding-bottom: 2px;
 }
+
+/* Visited link    */
+.contact-item > a:visited {color: var(--secondary-color);} 
+/* Mouse over link */
+.contact-item > a:hover {color:var(--tertiary-color);}   
+
 
   
   
